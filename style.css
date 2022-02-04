@@ -33,7 +33,7 @@ height: 50vh;
 .card{
   background-color:#d66853;
   width: 350px;
-  transform: translateY(20%)
+  transform: translateY(30%)
   }
   
  @media screen and (max-width: 768px){

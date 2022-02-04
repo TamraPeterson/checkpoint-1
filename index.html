@@ -31,14 +31,33 @@
   </style>
 </head>
 
-<body class=" whole">
+<body class="whole">
 
-  <header class="container">
-    <div class="row p-3">
-      <div class="col-12 d-flex align-items-center">
-        <h1><i class="mdi mdi-weather-sunny"></i> Homage to the Highlands</h1>
+  <header class="sticky-top">
+
+    <nav class="p-3 navbar navbar-expand-lg navbar-dark" style="background-color: #212d40">
+      <a class="navbar-brand" href="#">
+        <h3> <i class="mdi mdi-weather-sunny"></i> Homage to the Highlands</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Donate</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
+
   </header>
 
 
@@ -75,7 +94,7 @@
 
 
     <div class="row row-2 p-3">
-      <div class="col-12 col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center p-3 ">
+      <div class="col-12 col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center p-1 ">
         <h4>The Highland Cow Difference:</h4>
         <p>Fluff, horns, cuteness overload. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatum nam
           architecto quam commodi earum nihil cupiditate aspernatur expedita neque quod libero error voluptatem iusto
@@ -89,6 +108,10 @@
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
               <li>laskjdflaksjdf</li>
               <li>laskdjflaskdjf</li>
+              <li>laskjdflaksjdf</li>
+              <li>laskdjflaskdjf</li>
+              <li>laskjdflaksjdf</li>
+              <li>laskdjflaskdjf</li>
             </ul>
             </p>
           </div>
@@ -96,7 +119,7 @@
       </div>
     </div>
 
-    <div class="row row-3 d-flex p-3 m-5">
+    <div class="row row-3 d-flex p-3 ">
       <div class="col-12 col-md-5 d-flex justify-content-center"><img class="img-fluid rounded cowface"
           src="https://i.redd.it/tsy54rn40yx41.jpg" alt=""></div>
       <div class="col-12 col-md-7 text-light d-flex justify-content-center align-items-center flex-column">Lorem ipsum
@@ -124,7 +147,7 @@
         </div>
       </div>
       <div class=" col-12 col-md-4 order-1 order-md-2 d-flex justify-content-center align-items-center">
-        <div class="cards">
+        <div class="cards" style="width:18rem; height:20rem;">
           <div class="card-body ">
             <p class="card-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore, fugit nesciunt vero laudantium
