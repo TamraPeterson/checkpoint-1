@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkpoint 1</title>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+      height: 100px
+    }
+
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+
+    }
+  </style>
+</head>
+
+<body class="debug container-fluid">
+
+  <header>
+    <div class="row" id="header">
+      <div class="col-12">header logo</div>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="row" id="row-1">
+      <div class="col-12 col-md-4">form</div>
+      <div class="d-none d-md-block col-8">text over an image</div>
+
+    </div>
+
+    <div class="row" id="row-2">
+      <div class="col-12 col-md-6">text</div>
+      <div class="col-12 col-md-6">box that spills out of row</div>
+    </div>
+
+    <div class="row" id="row-3">
+      <div class="col-12 col-md-4">image</div>
+      <div class="col-12 col-md-8">text and button</div>
+    </div>
+
+    <div class="row" id="row-4">
+      <div class="col-12 col-md-4">card</div>
+      <div class="col-12 col-md-4">main card</div>
+      <div class="col-12 col-md-4">card</div>
+    </div>
+
+    <div class="row" id="row-5">
+      <div class="col-12">text</div>
+    </div>
+
+
+  </main>
+
+
+  <footer>
+
+    <div class="row">
+      <div class="col-12">footer text</div>
+    </div>
+
+  </footer>
+
+
+
+
+</body>
+
+</html>
