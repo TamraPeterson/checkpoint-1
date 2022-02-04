@@ -22,11 +22,12 @@ height: 50vh;
 
 .row-2{
   color: lightblue;
-  height: 20vh;
+
 }
 
 .row-3{
-  height: 50vh;
+
+  background-color: #adb4c0;
 }
 
 .card{
@@ -37,15 +38,22 @@ height: 50vh;
   
  @media screen and (max-width: 768px){
   .card{
-    transform: translate(0%);
+    transform: translateY(0%);
   } 
+
 
  }
  .cowface{
    object-fit: cover;
    height: 50vh;
+   width: 40vh
+
+   /* transform: scaleX(-1); */
+   
  }
 
  .cards{
    background-color: lightblue;
+   height: 300px;
+   width: 250px;
  }
