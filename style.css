@@ -1,0 +1,21 @@
+header{
+  background-color: #212d40;
+  color: lightblue;
+  
+}
+
+#whole{
+  background-color: #212d40;
+}
+
+#row-1{
+background-image: url(https://images.squarespace-cdn.com/content/v1/5ece4d07d31f1b069688b063/1594297390005-6HJR2OKTWSD69W9KMOND/highland-cattle-society-9313-cmacg.jpg);
+object-fit: cover;
+background-size: cover;
+background-position: 75% 25% ;
+height: 50vh;
+}
+
+#banner-text{
+  color: #d66853;
+}
