@@ -8,6 +8,9 @@
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
     integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <style>
@@ -37,7 +40,7 @@
 
     <nav class="p-3 navbar navbar-expand-lg navbar-dark" style="background-color: #212d40">
       <a class="navbar-brand" href="#">
-        <h3> <i class="mdi mdi-weather-sunny"></i> Homage to the Highlands</h3>
+        <h3 class="title"> <i class="mdi mdi-weather-sunny"></i> Homage to the Highland Cows</h3>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,10 +52,10 @@
             <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#row-two">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Donate</a>
+            <a class="nav-link" href="#row-four">Donate</a>
           </li>
         </ul>
       </div>
@@ -67,7 +70,7 @@
       <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
         <form>
           <div class="form-group">
-            <h4>Log in</h4>
+            <h4 style="font-family: Anton;">Log in</h4>
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
               placeholder="Enter email">
@@ -85,20 +88,21 @@
       </div>
 
       <div class="d-none d-md-flex flex-column col-8 justify-content-center align-items-end p-5">
-        <h4>Highland Treasures</h4>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        </p>
+        <h4 style="font-family: Anton; font-size: xx-large;">Highland Treasures</h4>
+        <h5>Stealing hearts, one moo at a time.
+        </h5>
 
       </div>
     </div>
 
 
-    <div class="row row-2 p-3">
-      <div class="col-12 col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center p-1 ">
-        <h4>The Highland Cow Difference:</h4>
-        <p>Fluff, horns, cuteness overload. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatum nam
-          architecto quam commodi earum nihil cupiditate aspernatur expedita neque quod libero error voluptatem iusto
-          itaque voluptatibus repellat, non quae!</p>
+    <div class="row row-2 p-3" id="row-two">
+      <div class="col-12 col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center align-items-center p-1 ">
+        <h4 style="font-family: Anton;">The Highland Cow Difference:</h4>
+        <p>Fluff, horns, cuteness overload. Maple syrup yearlings, quilt squeak doggies. Straw augers beef kettle our
+          crickets. Forage Harvester rakes peacocks, squeal garden woof. Lamb in eggplant baler rain barrels manure hay
+          rake. bull bowels cat chicken cow, calf donkey duck. Apples ducks straw, quail a ostriches donkey, hay hook
+          cucumbers. bull bowels cat chicken cow, calf donkey duck. Mooo cat daisys, grun.!</p>
       </div>
       <div class="col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
         <div class="card">
@@ -119,62 +123,68 @@
       </div>
     </div>
 
-    <div class="row row-3 d-flex p-3 ">
+    <div class="row row-3 d-flex p-3" id="row-three">
       <div class="col-12 col-md-5 d-flex justify-content-center"><img class="img-fluid rounded cowface"
           src="https://i.redd.it/tsy54rn40yx41.jpg" alt=""></div>
-      <div class="col-12 col-md-7 text-light d-flex justify-content-center align-items-center flex-column">Lorem ipsum
-        dolor, sit
-        amet consectetur adipisicing elit. Placeat quas
-        harum magnam eligendi minus, velit neque earum aperiam voluptatibus similique cupiditate porro illo amet quod,
-        cum obcaecati rem sint minima!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maxime ratione quos minus incidunt natus
-        eius eum, quas cum. Sed tenetur, debitis tempore deserunt illum amet laudantium perspiciatis quasi?
-        <button>Click Here</button>
+      <div class="col-12 col-md-7 text-dark d-flex justify-content-center align-items-center flex-column">Grain trucks,
+        hoot pony robins peacocks an kale. Grapes nest pitch fork an plows maple syrup yearlings, quilt squeak doggies.
+        Outhouse at nails mower. Pick up truck livestock, pets and storage shed, troughs feed bale manure, is garden
+        wheat oats at augers. Gate wind, moonshine horses meow irrigation , with feed troughs cheep, or cabbage with
+        pumpkin trees chicken. Prairi. In cabbage on, cauliflower irrigation Seeder onion. Rooster celery pineapples
+        fertilizer, a melon chirp pets in. Quack hammers eggplant is utters nails garden. Lamb pig rooster sheep. In the
+        straw rain barrels. Mallet herbs basil nest, in welding equipment pens quail. Lamb pig rooster sheep. In quilt
+        yearlings, gobblers pumpkin are porky pig beef.
+        <button type="button" class="btn btn-dark m-3">MOO</button>
       </div>
 
     </div>
 
-    <div class="row p-4" id="row-4">
+    <div class="row p-4 row-4" id="row-four">
       <div class="col-12 col-md-4 order-2 order-md-1 d-flex justify-content-center align-items-center">
-        <div class="cards">
+        <div class="cards rounded d-flex align-items-center">
           <div class="card-body ">
             <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore, fugit nesciunt vero laudantium
-              laborum asperiores doloremque et mollitia debitis commodi nemo. Voluptatibus nesciunt reiciendis iste
-              quidem ducimus repellat facilis!
+              Forage Harvester rakes peacocks, squeal garden woof. Bulls at rose garden cucumbers mice sunflower wheat
+              in pig. Goose hammers cattle rats in crows. Prairie dogs raccoons robins rats. Onion organic oranges and
+              purr ducks canning owls at a squeal.
             </p>
           </div>
         </div>
       </div>
       <div class=" col-12 col-md-4 order-1 order-md-2 d-flex justify-content-center align-items-center">
-        <div class="cards" style="width:18rem; height:20rem;">
+        <div class="cards rounded d-flex align-items-center" style="width:18rem; height:20rem;">
           <div class="card-body ">
+            <i class="mdi mdi-currency-usd d-flex justify-content-center"
+              style="font-size: xx-large; align-items: center;"></i>
             <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore, fugit nesciunt vero laudantium
-              laborum asperiores doloremque et mollitia debitis commodi nemo. Voluptatibus nesciunt reiciendis iste
-              quidem ducimus repellat facilis!
+              Trucks, hoot pony robins peacocks an kale. Prairie dogs raccoons robins rats. Mouse soybeans sweet corn
+              hogs llamas or oink oink wind. Gourds utters at welding equipment a oink oink haybine. Ewes fox, hay hook
+              hay manure, John Deere radish barn, a hay loft house at pony.
             </p>
           </div>
         </div>
       </div>
       <div class="col-12 col-md-4 order-3 order-md-3 d-flex justify-content-center align-items-center">
-        <div class="cards">
+        <div class="cards rounded d-flex align-items-center">
           <div class="card-body ">
             <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore, fugit nesciunt vero laudantium
-              laborum asperiores doloremque et mollitia debitis commodi nemo. Voluptatibus nesciunt reiciendis iste
-              quidem ducimus repellat facilis!
+              Oats at augers. Post pounder calf, hay or duck is, tool shed horse. Lettus gobblers pens, radish on kidney
+              beans, llamas pick up truck. Peacocks baa ostriches owls. Chainsaw foal hay hook, herbs at combine
+              harvester, children is mallet. and stuff
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row p-3" id="row-5">
+    <div class="row p-5 row-5">
       <div class="col-12 text-light">
-        <h4>Scottish Roots</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptas id? Corporis nobis maxime placeat,
-          sit vitae tempore accusamus aspernatur odit quod, magnam enim voluptas illo porro aliquid deleniti ad.</p>
+        <h4 style="font-family: Anton;">Scottish Roots</h4>
+        <p>Grain trucks, hoot pony robins peacocks an kale. Gourds utters at welding equipment a oink oink haybine.
+          Peacocks baa ostriches owls. veterinarian blue berries cattle jelly canning. Shovels at rakes plows. Grapes
+          nest pitch fork an plow. In turkey coo, windmill at bull. Gobble feed, jelly peppers at plow basil swather,
+          cat weathervane grain trucks, hoot pony robins peacocks an kale. Apples ducks straw, quail a ostriches donkey,
+          hay hook cucumbers. Mallet herbs basil nest, in welding equipmen.</p>
       </div>
     </div>
 
@@ -184,8 +194,14 @@
 
   <footer class="container">
 
-    <div class="row p-3">
-      <div class="col-12 text-white d-flex justify-content-center align-items-center">Contact us: (208) 555-5555</div>
+    <div class="row p-3" style="color: lightblue; background-color: #212d40;">
+      <div class="col-12 text-white d-flex justify-content-around align-items-center">
+        <div>Contact us: (208) 555-5555</div>
+
+        <div>PO Box 11223</div>
+
+        <div>Mootown, USA 01011</div>
+      </div>
     </div>
 
   </footer>

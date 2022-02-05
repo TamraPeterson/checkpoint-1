@@ -5,7 +5,12 @@ header{
 }
 
 .whole{
-  background-color: #212d40;
+  background-color: #151b25;
+}
+
+.title{
+  font-family: Anton;
+  font-size:xx-large;
 }
 
 .row-1{
@@ -14,26 +19,27 @@ object-fit: cover;
 background-size: cover;
 background-position: 75% 25% ;
 height: 50vh;
+color: #212d40;
 }
 
-#banner-text{
-  color: #d66853;
-}
 
 .row-2{
   color: lightblue;
-
+background-color: #212d40;
 }
 
 .row-3{
 
   background-color: #adb4c0;
+  color: lightblue;
 }
 
 .card{
   background-color:#d66853;
   width: 350px;
-  transform: translateY(30%)
+  transform: translateY(20%);
+ 
+  
   }
   
  @media screen and (max-width: 768px){
@@ -56,4 +62,17 @@ height: 50vh;
    background-color: lightblue;
    height: 300px;
    width: 250px;
+ }
+
+ .row-4{
+   background-color: #212d40;
+ }
+
+ .row-5{
+   color: lightblue;
+   background-color: #212d40;
+ }
+
+ footer{
+   color: red;
  }

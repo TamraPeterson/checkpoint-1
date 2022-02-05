@@ -1,0 +1,29 @@
+Requirements:
+
+Proper use of the Bootstrap Grid System to maintain page architecture (no improperly nested classes)
+
+Appropriate use of HTML5 Semantic tags for the header, main and footer
+
+On mobile any elements sharing a row should stack
+
+X--Imports custom font, and uses on at least one element
+
+X--Sticky Navbar on scroll
+
+The Text Over Image is hidden on mobile (@media Rule)
+
+The card spills out of row only on medium and larger screen sizes
+
+X--Must use external Icon library (FontAwesome, Material Icons, etc.)
+
+Specified elements order changes based on screen size
+
+Cards are vertically centered with the center card larger for emphasis
+
+Appropriate use of Margins and Padding (No text touching edges of elements)
+
+
+Stretch Goals:
+Add some CSS Animations to the page
+Utilize scroll to in page navigation
+Swap one of your images for a <video>
